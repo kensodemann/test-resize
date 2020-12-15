@@ -7,14 +7,37 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- Input with value -->
+  <ion-input value="custom"></ion-input>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <!-- Input with placeholder -->
+  <ion-input placeholder="Enter Input"></ion-input>
+
+  <!-- Input with clear button when there is a value -->
+  <ion-input clearInput value="clear me"></ion-input>
+
+  <!-- Number type input -->
+  <ion-input type="number" value="333"></ion-input>
+
+  <!-- Disabled input -->
+  <ion-input value="Disabled" disabled></ion-input>
+
+  <!-- Readonly input -->
+  <ion-input value="Readonly" readonly></ion-input>
+
+  <ion-input placeholder="Enter Input"></ion-input>
+  <ion-input placeholder="Enter Input"></ion-input>
+  <ion-input placeholder="Enter Input"></ion-input>
+  <ion-input placeholder="7 - Enter Input"></ion-input>
+  <ion-input placeholder="8 - Enter Input"></ion-input>
+  <ion-input placeholder="9 - Enter Input"></ion-input>
+  <ion-input placeholder="10 - Enter Input"></ion-input>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      Bottom
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
